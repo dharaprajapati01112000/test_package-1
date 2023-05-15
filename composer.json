@@ -1,0 +1,14 @@
+{
+    "name": "dhara/tests_package",
+    "description": "This is test package.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dhara\\tests_package\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
